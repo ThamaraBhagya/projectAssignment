@@ -1,0 +1,44 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+p{
+    text-align: center;
+}
+
+.A{
+    width: 220px;
+    background-color: white;
+    margin: 30px;
+}
+button{
+    background-color: rgb(55, 120, 243) ;
+    color: white;
+    margin-bottom: 10px;
+    border: blue;
+    font-size: 20px;
+    
+}
+.B{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgba(195, 192, 192, 0.625);
+    
+    
+}
+.D, .E{
+    display: inline-block;
+}
+.D{
+    margin-left: 50px;
+}
+.F{
+
+    margin: 50px 50px 100px 50px;
+}
+.H{
+    display: grid ;
+    grid-template-rows: 70px;
+
+
+}
